@@ -1,23 +1,37 @@
-gh repo clone hjoelh/Lofi-Radio-Desktop
-<br>
+## ✍️ Getting Started
+
+### Clone
+
+```bash
+git clone https://github.com/hjoelh/Lofi-Radio-Desktop.git
 cd Lofi-Radio-Desktop
+```
 
-// SITE - NEXT.js
-<br>
-cd site 
-<br>
-npm i
-<br>
-npm run dev
+or with GitHub CLI
 
+```bash
+gh repo clone hjoelh/Lofi-Radio-Desktop
+cd Lofi-Radio-Desktop
+```
 
-// APP - electron forge
-<br>
-cd app 
-<br>
-npm i
-<br>
+### Install Dependencies For Website And Start Local Server
+
+```bash
+cd site
+npm install
 npm start
+```
 
-only commit to Lofi-Radio-Desktop  
+### Install Dependencies For Application And Start Local Server
 
+```bash
+cd app
+npm install
+npm start
+```
+
+---
+
+### Contribution
+Commit directly to Lofi-Radio-Desktop
+Thank you!
