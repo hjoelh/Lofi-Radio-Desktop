@@ -20,12 +20,12 @@ export default function Home() {
 
         <div className="buttonDiv">
           <button className="button1" type="button">
-            <a className="link" href="https://bit.ly/maclofi2" download="lofi">
+            <a className="link" href="https://bit.ly/lofimac3" download="lofi">
               Download <AiOutlineApple />
             </a>
           </button>
           <button className="button2" type="button">
-            <a className="link" href="https://bit.ly/lofiwin" download="lofi">
+            <a className="link" href="https://bit.ly/lofiwin3" download="lofi">
               Download <SiWindows95 />
             </a>
           </button>
