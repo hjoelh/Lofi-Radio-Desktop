@@ -6,7 +6,7 @@ export default function HeadMeta(){
     <title>Lofi Radio Desktop</title>
     <meta name="title" content="Lofi Radio Desktop" />
     <meta name="description" content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"/>
-
+<meta name="google-site-verification" content="0L-OGw7wusEygK1F_ra_origg8lgYJsgfezVrpvljJw" />
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://lofi-radio-desktop.vercel.app"/>
     <meta property="og:title" content="Lofi Radio Desktop"/>
@@ -21,4 +21,3 @@ export default function HeadMeta(){
   </Head>
    );
 }
- 
