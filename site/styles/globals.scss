@@ -30,6 +30,7 @@ h1 {
   font-size: 3rem;
   margin: 55px;
   color: white;
+  display: inline-block;
   text-align: center;
 }
 
@@ -114,4 +115,10 @@ button {
   button {
     width: 7em;
   }
+}
+
+.github {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
 }

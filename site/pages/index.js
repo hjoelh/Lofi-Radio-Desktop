@@ -3,6 +3,7 @@ import { SiWindows95 } from "react-icons/si";
 import HeadMeta from "../components/head.js";
 import Producthunt from "../components/producthunt.js";
 import { rain } from "../components/rain.js";
+import Github from "../components/github.js";
 
 export default function Home() {
   React.useEffect(() => {
@@ -12,9 +13,8 @@ export default function Home() {
   return (
     <>
       <HeadMeta />
-
       <div className="main">
-        <h1>Lofi Radio Desktop</h1>
+        <h1>Lofi Radio Desktop </h1>
         <img className="image" src="/main.png" alt="lofi desktop app" />
         <div className="rain front-row"></div>
 
@@ -24,6 +24,7 @@ export default function Home() {
               Download <AiOutlineApple />
             </a>
           </button>
+
           <button className="button2" type="button">
             <a className="link" href="https://bit.ly/lofiwin3" download="lofi">
               Download <SiWindows95 />
@@ -31,6 +32,7 @@ export default function Home() {
           </button>
         </div>
         <Producthunt />
+        <Github />
       </div>
     </>
   );
