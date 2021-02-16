@@ -8,6 +8,7 @@ const Github = () => {
       className="github"
       href="https://github.com/hjoelh/Lofi-Radio-Desktop"
       target="_blank"
+      aria-label="GitHub"
     >
       <IconContext.Provider value={{ color: "white", size: "2.5em" }}>
         <VscGithub />
