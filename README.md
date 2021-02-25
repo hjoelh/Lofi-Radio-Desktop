@@ -1,7 +1,3 @@
-gh repo clone hjoelh/Lofi-Radio-Desktop
-<br>
-cd Lofi-Radio-Desktop
-
 // SITE - NEXT.js
 <br>
 cd site 
