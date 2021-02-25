@@ -19,5 +19,3 @@ npm i
 <br>
 npm start
 
-only commit to Lofi-Radio-Desktop  
-
