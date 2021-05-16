@@ -19,9 +19,10 @@ export default function HeadMeta(){
     <meta property="twitter:title" content="Lofi Radio Desktop"/>
     <meta property="twitter:description" content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"/>
     <meta property="twitter:image" content="https://i.imgur.com/Lg3PMpn.png" />
-    {/* // Cloudflare Web Analytics */}
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1b8034b7f0e94926b8dbe12f4c0f77bd"}'></script>
-    {/* <!-- End Cloudflare Web Analytics --> */}
+
+    
+    <script async src="https://cdn.splitbee.io/sb.js"></script>
+
   </Head>
    );
 }

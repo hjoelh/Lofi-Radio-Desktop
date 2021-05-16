@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import { AiOutlineApple } from "react-icons/ai";
 import { SiWindows95 } from "react-icons/si";
 import HeadMeta from "../components/head.js";
@@ -6,7 +8,7 @@ import { rain } from "../components/rain.js";
 import Github from "../components/github.js";
 
 export default function Home() {
-  React.useEffect(() => {
+  useEffect(() => {
     rain();
   }, []);
 
