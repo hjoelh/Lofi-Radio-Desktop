@@ -51,5 +51,4 @@ export function rain() {
       's;"></div></div>';
   }
   $(".rain.front-row").append(drops);
-  $(".rain.back-row").append(backDrops);
 }

@@ -1,20 +1,22 @@
 import { VscGithub } from "react-icons/vsc";
-import { IconContext } from "react-icons";
 
-const Github = () => {
+export default function Github() {
   return (
     <a
-      rel="noopener"
+      rel="noreferrer"
       className="github"
-      href="https://github.com/hjoelh/Lofi-Radio-Desktop"
+      href="https://github.com/hjoelh/Eth-Price-Bot"
       target="_blank"
       aria-label="GitHub"
+      style={{
+        color: "white",
+        fontSize: "30px",
+        position: "fixed",
+        bottom: "15px",
+        right: "15px",
+      }}
     >
-      <IconContext.Provider value={{ color: "white", size: "2.5em" }}>
-        <VscGithub />
-      </IconContext.Provider>
+      <VscGithub />
     </a>
   );
-};
-
-export default Github;
+}

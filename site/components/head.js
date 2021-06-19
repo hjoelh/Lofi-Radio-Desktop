@@ -19,7 +19,6 @@ export default function HeadMeta(){
     <meta property="twitter:title" content="Lofi Radio Desktop"/>
     <meta property="twitter:description" content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"/>
     <meta property="twitter:image" content="https://i.imgur.com/Lg3PMpn.png" />
-
     
     <script async src="https://cdn.splitbee.io/sb.js"></script>
 
