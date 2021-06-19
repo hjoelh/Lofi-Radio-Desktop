@@ -21,16 +21,15 @@ export default function Home() {
       <>
         <Container>
           <Title>Lofi Radio Desktop</Title>
-          <Img className="image" src="/main.png" alt="lofi desktop app" />
+          <Img src="/main.png" alt="lofi desktop app" />
 
           <div className="rain front-row" />
 
           <div style={{ display: "flex" }}>
             <Button_1>
               <Link
-                className="link"
-                href="https://bit.ly/lofimac3"
-                download="lofi"
+                href="https://www.dropbox.com/s/i0fihs3w21rb67e/lofi%20osx.zip?raw=1"
+                download="lofi.app"
               >
                 Download <AiOutlineApple />
               </Link>
@@ -38,9 +37,8 @@ export default function Home() {
 
             <Button_2>
               <Link
-                className="link"
-                href="https://bit.ly/lofiwin3"
-                download="lofi"
+                href="https://www.dropbox.com/s/2f18mreoosdra71/lofi-1.0.0%20Setup.exe?raw=1"
+                download="lofi.app"
               >
                 Download <SiWindows95 />
               </Link>
