@@ -5,7 +5,7 @@ export default function Github() {
     <a
       rel="noreferrer"
       className="github"
-      href="https://github.com/hjoelh/Lofi-Radio-Desktop"
+      href="https://github.com/hjoelh/Eth-Price-Bot"
       target="_blank"
       aria-label="GitHub"
       style={{
