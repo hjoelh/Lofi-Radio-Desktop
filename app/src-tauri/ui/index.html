@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>lofi radio desktop</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        overflow: hidden;
+        position: relative;
+      }
+
+      body {
+        position: relative;
+      }
+
+      iframe {
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .drag {
+        -webkit-app-region: drag;
+        background-color: transparent;
+        position: fixed;
+        top: 0px;
+        width: 100vw;
+        height: 75px;
+        z-index: 999;
+        cursor: move;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-tauri-drag-region class="drag"></div>
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/jfKfPfyJRdk?autoplay=1&color=white"
+      frameborder="0"
+      allow="fullscreen; autoplay; encrypted-media;"
+    >
+    </iframe>
+  </body>
+</html>

@@ -28,7 +28,7 @@ export default function Home() {
           <div style={{ display: "flex" }}>
             <Button_1>
               <Link
-                href="https://www.dropbox.com/s/i0fihs3w21rb67e/lofi%20osx.zip?raw=1"
+                href="https://www.dropbox.com/s/40w3921yji8hbqp/lofi-radio-desktop.app.zip?dl=1"
                 download="lofi.app"
               >
                 Download <AiOutlineApple />
