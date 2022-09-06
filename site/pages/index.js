@@ -37,7 +37,7 @@ export default function Home() {
 
             <Button_2>
               <Link
-                href="https://www.dropbox.com/s/2f18mreoosdra71/lofi-1.0.0%20Setup.exe?raw=1"
+                href="https://www.dropbox.com/s/was6j3ggo97a3dr/lofi-radio-desktop_0.1.0_x64_en-US.msi?raw=1"
                 download="lofi.app"
               >
                 Download <SiWindows95 />
