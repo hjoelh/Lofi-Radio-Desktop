@@ -1,5 +1,6 @@
 {
   "name": "lofi-radio-desktop",
+  "version": "0.1",
   "scripts": {
     "tauri": "tauri",
     "dev": "tauri dev",
