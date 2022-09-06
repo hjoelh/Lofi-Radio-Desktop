@@ -3,7 +3,8 @@
   "scripts": {
     "tauri": "tauri",
     "dev": "tauri dev",
-    "build:osx": "tauri build --target universal-apple-darwin --verbose"
+    "build:osx": "tauri build --target universal-apple-darwin --verbose",
+    "build:windows": "tauri build --verbose"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.0.2"
