@@ -4,10 +4,11 @@ import GlobalStyle from "../styles/global.js";
 
 import { AiOutlineApple } from "react-icons/ai";
 import { SiWindows95 } from "react-icons/si";
-import HeadMeta from "../components/head.js";
-import Producthunt from "../components/producthunt.js";
+import HeadMeta from "../components/Head";
+import Producthunt from "../components/ProductHunt";
 import { rain } from "../components/rain.js";
-import Github from "../components/github.js";
+import Github from "../components/Github";
+import { FeedbackFish } from "../components/FeedbackFish";
 
 export default function Home() {
   useEffect(() => {
@@ -27,25 +28,20 @@ export default function Home() {
 
           <div style={{ display: "flex" }}>
             <Button_1>
-              <Link
-                href="https://bit.ly/3Q278ud"
-                download="lofi.app"
-              >
+              <Link href="https://bit.ly/3Q278ud" download="lofi.app">
                 Download <AiOutlineApple />
               </Link>
             </Button_1>
 
             <Button_2>
-              <Link
-                href="https://bit.ly/3hWDgmw"
-                download="lofi.app"
-              >
+              <Link href="https://bit.ly/3hWDgmw" download="lofi.app">
                 Download <SiWindows95 />
               </Link>
             </Button_2>
           </div>
           <Producthunt />
           <Github />
+          <FeedbackFish />
         </Container>
       </>
     </>
